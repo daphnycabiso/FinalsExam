@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         for (Video vid : videos) {
             VideoTable.insertVideo(this, vid);
-            //mAdapter.add(vid);
+
         }
     }
 
@@ -62,9 +62,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         mAdapter.addAll(videos);
 
 
-//        for (Video vid:videos){
-//            mAdapter.add(vid);
-//        }
+
+
     }
 
     public void showProgressBar() {
